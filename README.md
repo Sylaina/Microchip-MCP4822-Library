@@ -36,7 +36,7 @@ int main(void){
               500,
               12,
               2,
-              1,
+              2,
               0);
      delay_ms(500);
      // Set OUTA of MCP4822 to 1500mV
