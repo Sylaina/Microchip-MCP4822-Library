@@ -16,6 +16,7 @@ MCP4822 connected at SPI-pins of Atmega328P, CS-pin connected PB2 of Atmega328P
 ```c
 #include <avr/io.h>
 #include <util/delay.h>
+#include "mcpDAC.h"
 
 int main(void){
   mcpDACInit(&PORTB, &DDRB, PB2);
