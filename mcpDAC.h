@@ -13,10 +13,6 @@
 extern "C" {
 #endif
 
-#define BIT12           // 12 bit dac
-// #define BIT10        // 10 bit dac
-// #define BIT8         // 8 bit dac
-
 #include <avr/io.h>
 
 void mcpDACInit(volatile uint8_t *cPort, volatile uint8_t *cDDR, uint8_t cPin);
