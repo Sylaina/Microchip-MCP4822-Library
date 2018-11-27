@@ -33,8 +33,8 @@ int main(void){
     // set OUTB of MCP4822 to 500mV
     setMCPDAC(&PORTB,
               PB2,
-              500,
               12,
+              500,
               2,
               2,
               0);
