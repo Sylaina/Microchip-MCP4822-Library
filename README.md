@@ -25,8 +25,8 @@ int main(void){
     // Set OUTA of MCP4822 to 500mV
     setMCPDAC(&PORTB, // Port of CS-pin
               PB2,    // CS-pin
-              1000,   // count
               12,     // resolution of DAC
+              1000,   // count
               1,      // channel, 1 means OUTA, 2 means OUTB
               1,      // gain, out voltage of DAC is 2048 mV / 4096 * gain * count
               0);     // chip shutdown=0 mean chip on, shutdown=1 means chip off
@@ -41,17 +41,17 @@ int main(void){
      delay_ms(500);
      // Set OUTA of MCP4822 to 1500mV
      setMCPDAC(&PORTB, 
-               PB2,  
-               1500, 
-               12,   
+               PB2,
+               12,
+               1500,   
                1,    
                2,    
                0);   
      // set OUTB of MCP4822 to 1500mV
      setMCPDAC(&PORTB,
                PB2,
-               3000,
                12,
+               3000,
                2,
                1,
                0);
