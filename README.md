@@ -3,7 +3,7 @@ Library for MCP4822 at AVR Mikrocontroller
 
 This library is for use DAC MCP4822 on AVR Mikrocontroller like Atmega328 via SPI.
 I've wrote this library because I just found libraries for Arduino (C++ Language) and I needed a library for C-Language (don't use Arduino).
-My library shut work for Arduino/C++ too. (not tested).
+My library should work for Arduino/C++ too. (not tested).
 
 The library is tested with MCP4822, should work with the follow DACs too:
 
